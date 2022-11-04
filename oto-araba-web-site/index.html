@@ -2,290 +2,313 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Arabam</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arabam</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- As a link -->
-    <nav class="navbar bg-light ">
-        <div class="container-fluid">
-            <a  class="navbar-brand " href="#">Arabam.com</a>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2 " type="search" placeholder="Ara" aria-label="Search">
-                <button class="btn btn-outline-dark" type="submit"><i
-                        class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
-            </form>
-        </div>
-    </nav>
-
-    <!-- As a heading -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
-        <div class="container-fluid text-dark">
-            <a class="navbar-brand" href="#">Araç Hizmetleri</a>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Araba alım-satım
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Yedek parça
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Teknik Destek
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="#">Oto Kurtarma</a>
-                    </li>
-                </ul>
-                <div style="display:flex ;" class="">
-                    <ul class="navbar-nav ">
-                        <li class="navbar-nav  ">
-                            <a class="nav-link " href="#">
-                                Hesabım
-                            </a>
-                        </li>
-                        <li class=" navbar-nav  ">
-                            <i class="bi bi-bag-heart"></i>
-                            <a class="nav-link" href="#">
-                                Sepetim
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Navbar end -->
-  
-    <!-- start slider -->
-    <div class="container">
-        <div class="row mt-5">
-            <div class="col-md-3">
-
-            </div>
-            <div class="col-md-6">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="images/araba2.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/araba2.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/araba2.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-            </div>
-        </div>
+  <!-- As a link -->
+  <nav class="navbar bg-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#">Arabam.com</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 " type="search" placeholder="Ara..." aria-label="Search">
+        <button class="btn btn-outline-dark" type="submit"><i
+            class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+      </form>
     </div>
-<!-- slider end -->
+  </nav>
 
-<!-- card start -->
-    <div class="container">
-        <div class="row my-4">
-            <div>
-                <h3 class="header-text text-dark">Ürünlerimiz</h3>
-            </div>
-            <div class="col-md-4">
-                <div class="card" >
-                    <img src="images/araba2.jpg" class="" alt="...">
-                    <div class="card-body">
-                      
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="button ">Buketi Ekle</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card " >
-                    <img src="images/araba2.jpg" class="" alt="...">
-                    <div class="card-body">
-                      
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="button ">Buketi Ekle</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" >
-                    <img src="images/araba2.jpg" class="" alt="...">
-                    <div class="card-body">
-                      
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="button ">Buketi Ekle</a>
-                    </div>
-                  </div>
-            </div>
-        </div>
-        <div class="row my-4">
-            <div class="col-md-4">
-                <div class="card" >
-                    <img src="images/araba2.jpg" class="" alt="...">
-                    <div class="card-body">
-                      
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="button">Buketi Ekle</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" >
-                    <img src="images/araba2.jpg" class="" alt="...">
-                    <div class="card-body">
-                      
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="button">Buketi Ekle</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" >
-                    <img src="images/araba2.jpg" class="" alt="...">
-                    <div class="card-body">
-                      
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="button ">Buketi Ekle</a>
-                    </div>
-                  </div>
-            </div>
-        </div>
-        <div class="row my-4">
-            <div class="col-md-4">
-                <div class="card" >
-                    <img src="images/araba2.jpg" class="" alt="...">
-                    <div class="card-body">
-                      
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="button ">Buketi Ekle</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" >
-                    <img src="images/araba2.jpg" class="" alt="...">
-                    <div class="card-body">
-                      
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="button ">Buketi Ekle</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" >
-                    <img src="images/araba2.jpg" class="" alt="...">
-                    <div class="card-body">
-                      
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="button">Buketi Ekle</a>
-                    </div>
-                  </div>
-            </div>
-        </div>
+  <!-- As a heading -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+    <div class="container-fluid text-dark">
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto ">
+          <li class="nav-item text-light">
+            <a class="nav-link active" aria-current="page" href="#">Oto Kurtarma</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Araba alım-satım
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Yedek parça
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Teknik Destek
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <ul class="navbar-nav ">
+          <li class="navbar-nav text-light ">
+            <i style="margin-top: 12px;" class="fa-solid fa-user text-light"></i>
+            <a class="nav-link " href="#">
+              Hesabım
+            </a>
+          </li>
+          <li class=" navbar-nav ">
+            <i style="margin-top: 12px;" class="fa-solid fa-basket-shopping text-light"></i>
+            <a class="nav-link" href="#">
+              Sepetim
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <!-- card end -->
-    
-    <!-- footer start -->
-   
-<footer style="background-color: rgba(0, 0, 0, 0.795);" class="text-center text-lg-start  text-muted">
-  
-  <section class=" section">
-    <div class="container text-center text-md-start mt-5">
-      <div class="row mt-3">
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto my-4">
-          <h6 class="text-uppercase fw-bold mb-4">Hakkımızda</h6>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto my-4">
-          <h6 class="text-uppercase fw-bold mb-4"> 
-            Hizmetlerimiz
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Araba alım satım</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Yedek Parça</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Yetkili servis</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Oto Kurtarma</a>
-          </p>
-        </div>
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 my-4">
-          
-          <h6 class="text-uppercase fw-bold mb-4">İletişim</h6>
-          
-          <a  class="text-decoration-none text-light" href=""><p><i class=" fas fa-home me-3 text-light"></i> İstanbul</p></a>
-          <a  class="text-decoration-none text-light" href=""><p><i  class=" fas fa-envelope me-3 text-light "></i>umit@gmail.com</p></a>
-          <a  class="text-decoration-none text-light" href=""><p><i class=" fas fa-phone me-3 "></i>  01 234 567 88</p></a>
-          <a  class="text-decoration-none text-light" href=""><p><i class=" fas fa-print me-3 text-light"></i>  01 234 567 89</p></a>
+  <!-- Navbar end -->
 
+  <!-- start slider -->
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-3">
+
+      </div>
+      <div class="col-md-6">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/arabam1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/arabam6.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/arabam9.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>
-    <div class="text-center p-4">
-      © 2022 Copyright:
-      <a class="text-reset fw-bold" href="">Ümit Avcı</a>
+  </div>
+  <!-- slider end -->
+
+  <!-- card start -->
+  <div class="container">
+    <div class="row my-4">
+      <div>
+        <h3 class="header-text text-dark">Ürünlerimiz</h3>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/arabam1.jpg" class="" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="button ">Detay</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card ">
+          <img src="images/arabam8.jpg" class="" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="button ">Detay</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/arabam4.jpg" class="" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="button ">Detay</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
+    <div class="row my-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/arabam3.jpg" class="" alt="...">
+          <div class="card-body">
 
-</footer>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="button">Detay</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/arabam6.jpg" class="" alt="...">
+          <div class="card-body">
 
-    <!-- footer end -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="button">Detay</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/arabam7.jpg" class="" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="button ">Detay</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row my-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/arabam10.jpg" class="" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="button ">Detay</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/arabam9.jpg" class="" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="button ">Detay</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/arabam11.jpg" class="" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="button">Detay</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+
+  <!-- card end -->
+
+  <!-- footer start -->
+
+  <footer style="background-color: rgba(0, 0, 0, 0.795);" class="text-center text-lg-start  text-muted">
+
+    <section class=" section">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto my-4">
+            <h6 class="text-uppercase fw-bold mb-4">Hakkımızda</h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto my-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              HİZMETLERİMİZ
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none ">Araba alım satım</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Yedek Parça</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Yetkili servis</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Oto Kurtarma</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 my-4">
+
+            <h6 class="text-uppercase fw-bold mb-4 ">İLETİŞİM</h6>
+
+            <a class="text-decoration-none text-light" href="">
+              <p><i class=" fas fa-home me-3 text-light"></i> İstanbul</p>
+            </a>
+            <a class="text-decoration-none text-light" href="">
+              <p><i class=" fas fa-envelope me-3 text-light "></i>umit@gmail.com</p>
+            </a>
+            <a class="text-decoration-none text-light" href="">
+              <p><i class=" fas fa-phone me-3 "></i> 01 234 567 88</p>
+            </a>
+            <a class="text-decoration-none text-light" href="">
+              <p><i class=" fas fa-print me-3 text-light"></i> 01 234 567 89</p>
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-4">
+        © 2022 Copyright:
+        <a class="text-reset fw-bold" href="https://github.com/umitavc" target="_blank">Ümit Avcı</a>
+      </div>
+    </section>
+
+  </footer>
+
+  <!-- footer end -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
