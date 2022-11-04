@@ -9,7 +9,7 @@
     text-align: center;
 }
 .button{
-    background-color: #b7cb52; /* Green */
+    background-color:rgba(0, 0, 0, 0.795); /* Green */
   border: none;
   color: white;
   padding: 8px 12px;
@@ -18,3 +18,8 @@
   display: inline-block;
   font-size: 12px;
 }
+
+.section{
+    color: white;
+}
+
